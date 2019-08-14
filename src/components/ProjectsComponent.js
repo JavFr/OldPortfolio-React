@@ -34,7 +34,7 @@ class Projects extends Component{
                 title: 'Primer Sitio de Presentación',
                 subtitle: '',
                 description: 'Desarrollado con CSS puro y Jquery. Lo diseñe de esta manera para explorar posibilidades de visualización SPA sin la utilización de frameworks. ',
-                link: "",
+                link: "https://javfr.github.io/OldPresentationSite/",
                 images: [
                     require('../assets/img/OldSite-Screen1.png'),
                     require('../assets/img/OldSite-Screen2.png'),
@@ -89,7 +89,7 @@ class Projects extends Component{
                 <Modal className="modal-lg" isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}>
                         {this.state.currentProject.title}
-                        <a className="navbar-link ml-1" href=""><i className="fa fa-external-link"></i></a>    
+                        <a className="navbar-link ml-1" target="_blank" href={this.state.currentProject.link}><i className="fa fa-external-link"></i></a>    
                     </ModalHeader>
                     <ModalBody>
                         <Row>

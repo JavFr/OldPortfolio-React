@@ -92,10 +92,12 @@ address{
   background-color: #d8315b;
   color: white;
 }
+/*
 .is-current{
   transition: all ease-in .2s;
   border-bottom: 4px solid black;
 }
+*/
 
 .project-card:hover{
   transform: scale(1.008);

@@ -13,9 +13,9 @@ function Footer(props) {
                     </div>
                     <div className="row justify-content-center">
                         <div className="text-center col-12 col-md-6">
-                            <a className="btn btn-social-icon btn-github" href="https://github.com/JavFr/"><i className="fa fa-codepen"></i></a>
-                            <a className="btn btn-social-icon btn-github" href="https://github.com/JavFr/"><i className="fa fa-github"></i></a>
-                            <a className="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/javfr/"><i className="fa fa-linkedin"></i></a>
+                            <a className="btn btn-social-icon btn-github" target="_blank" href="https://github.com/JavFr/"><i className="fa fa-codepen"></i></a>
+                            <a className="btn btn-social-icon btn-github" target="_blank" href="https://github.com/JavFr/"><i className="fa fa-github"></i></a>
+                            <a className="btn btn-social-icon btn-linkedin" target="_blank" href="https://www.linkedin.com/in/javfr/"><i className="fa fa-linkedin"></i></a>
                         </div>
                         <div className="col-12 col-md-6 text-center">
                             <a href="mailto:jfbrustolon@gmail.com"> <i className="fa fa-envelope fa-lg"></i>:
